@@ -1,0 +1,9 @@
+.form-group {
+    @apply flex flex-col space-y-1;
+}
+
+.form-group > input,
+.form-group > select,
+.form-group > textarea {
+    @apply bg-white rounded-md border;
+}
